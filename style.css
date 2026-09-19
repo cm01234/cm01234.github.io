@@ -667,7 +667,7 @@ padding-inline: 0.5rem;
 .hero {
 min-height: auto;
 
-padding-top: 12rem;
+padding-top: 16rem;
 
 
 }
@@ -702,6 +702,10 @@ width: 100%;
 justify-content: center;
 
 
+}
+
+.language-switcher {
+align-self: center;
 }
 
 .hero h1 {
