@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "title": "cm01234 | Web Developer Portfolio",
+    "description": "Portfolio of cm01234, a creative web developer building accessible, fast, and user-friendly digital experiences."
+  },
+  "accessibility": {
+    "skip": "Skip to main content"
+  },
+  "navigation": {
+    "label": "Primary navigation",
+    "home": "cm01234 home",
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience"
+  },
+  "language": {
+    "label": "Language selection",
+    "english": "English",
+    "russian": "Russian"
+  },
+  "hero": {
+    "eyebrow": "Hello, I'm",
+    "name": "cm01234.",
+    "description": "A non-creative developer vibing in the modern vibing world, growing the world's tech debt prompt by prompt.",
+    "projectsButton": "View my work"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "The short story behind the vibes.",
+    "paragraph1": "It started with a blank screen, a questionable idea, and a willingness to let the code make the decisions.",
+    "paragraph2": "Since then, I've been vibing through the modern web and growing the world's tech debt one prompt at a time.",
+    "skillsLabel": "Technical skills"
+  },
+  "projects": {
+    "title": "Selected Projects",
+    "subtitle": "Some things I've built recently.",
+    "dashboard": {
+      "title": "mm-pdf-qa",
+      "description": "PDF question-answering project.",
+      "link": "View on GitHub",
+      "ariaLabel": "View the mm-pdf-qa project on GitHub"
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "Where I've worked and what I've learned.",
+    "present": "Present",
+    "vibe": {
+      "title": "Unprofessional vibe coder",
+      "company": "Unemployment",
+      "description": "Vibing projects unprofessionally while refusing to collaborate with anybody."
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 cm01234. All rights reserved."
+  }
+}

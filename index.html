@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>cm01234 | Web Developer Portfolio</title>
+
+<meta
+name="description"
+content="Portfolio of cm01234, a creative web developer building accessible, fast, and user-friendly digital experiences."
+>
+
+<link rel="stylesheet" href="./style.css">
+<script src="./js/i18n.js" defer></script>
+</head>
+<body>
+<!-- Skip navigation -->
+
+<a
+class="skip-link"
+href="#main-content"
+data-i18n="accessibility.skip"
+
+Skip to main content
+
+</a>
+
+<!-- Navigation -->
+<header class="site-header">
+<nav aria-label="Primary navigation" data-i18n-aria-label="navigation.label">
+
+  <div class="nav-container">
+
+    <a
+      href="#top"
+      class="logo"
+      data-i18n-aria-label="navigation.home"
+    >
+      cm01234
+    </a>
+
+    <ul class="nav-links">
+
+      <li>
+        <a
+          href="#about"
+          data-i18n="navigation.about"
+        >
+          About
+        </a>
+      </li>
+
+      <li>
+        <a
+          href="#projects"
+          data-i18n="navigation.projects"
+        >
+          Projects
+        </a>
+      </li>
+
+      <li>
+        <a
+          href="#experience"
+          data-i18n="navigation.experience"
+        >
+          Experience
+        </a>
+      </li>
+
+    </ul>
+
+
+    <!-- Language switcher -->
+    <div
+      class="language-switcher"
+      role="group"
+      data-i18n-aria-label="language.label"
+    >
+
+      <button
+        type="button"
+        class="language-button"
+        data-language="en"
+        aria-label="English"
+      >
+        EN
+      </button>
+
+      <span aria-hidden="true">|</span>
+
+      <button
+        type="button"
+        class="language-button"
+        data-language="ru"
+        aria-label="Русский"
+      >
+        RU
+      </button>
+
+    </div>
+
+  </div>
+
+</nav>
+
+</header> <main id="main-content">
+<!-- Hero -->
+<section
+  id="top"
+  class="hero"
+  aria-labelledby="hero-title"
+>
+
+  <div class="hero-content">
+
+    <p
+      class="eyebrow"
+      data-i18n="hero.eyebrow"
+    >
+      Hello, I'm
+    </p>
+
+    <h1 id="hero-title">
+      <span data-i18n="hero.name">cm01234.</span>
+    </h1>
+
+    <p
+      class="hero-description"
+      data-i18n="hero.description"
+    >
+      A creative developer building clean, fast, accessible,
+      and user-friendly digital experiences for the modern web.
+    </p>
+
+    <div class="buttons">
+
+      <a
+        href="#projects"
+        class="btn btn-primary"
+        data-i18n="hero.projectsButton"
+      >
+        View my work
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- About -->
+<section
+  id="about"
+  aria-labelledby="about-title"
+>
+
+  <div class="section-title">
+
+    <h2
+      id="about-title"
+      data-i18n="about.title"
+    >
+      About Me
+    </h2>
+
+    <p data-i18n="about.subtitle">
+      A little bit about who I am and what I do.
+    </p>
+
+  </div>
+
+
+  <div class="about">
+
+    <div class="about-text">
+
+      <p data-i18n="about.paragraph1">
+        I'm a web developer who enjoys turning ideas into
+        beautiful, functional websites and applications.
+      </p>
+
+      <p data-i18n="about.paragraph2">
+        I focus on writing simple, maintainable code and
+        creating interfaces that are enjoyable to use.
+      </p>
+
+    </div>
+
+
+    <div
+      class="skills"
+      data-i18n-aria-label="about.skillsLabel"
+    >
+
+      <span class="skill">Vibe</span>
+      <span class="skill">Broken design</span>
+      <span class="skill">Banana</span>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- Projects -->
+<section
+  id="projects"
+  aria-labelledby="projects-title"
+>
+
+  <div class="section-title">
+
+    <h2
+      id="projects-title"
+      data-i18n="projects.title"
+    >
+      Selected Projects
+    </h2>
+
+    <p data-i18n="projects.subtitle">
+      Some things I've built recently.
+    </p>
+
+  </div>
+
+
+  <div class="projects">
+
+
+    <!-- Project 01 -->
+    <article class="project">
+
+      <div
+        class="project-number"
+        aria-hidden="true"
+      >
+        01
+      </div>
+
+      <h3 data-i18n="projects.dashboard.title">
+        mm-pdf-qa
+      </h3>
+
+      <p data-i18n="projects.dashboard.description">
+        PDF question-answering project.
+      </p>
+
+      <a
+        href="https://github.com/cm01234/mm-pdf-qa"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-i18n="projects.dashboard.link"
+      >
+        View on GitHub
+      </a>
+
+    </article>
+
+  </div>
+
+</section>
+
+
+<!-- Experience -->
+<section
+  id="experience"
+  aria-labelledby="experience-title"
+>
+
+  <div class="section-title">
+
+    <h2
+      id="experience-title"
+      data-i18n="experience.title"
+    >
+      Experience
+    </h2>
+
+    <p data-i18n="experience.subtitle">
+      Where I've worked and what I've learned.
+    </p>
+
+  </div>
+
+
+  <div class="experience">
+
+
+    <!-- Current role -->
+    <article class="job">
+
+      <div class="job-date">
+
+        <time datetime="2026">
+          2026
+        </time>
+
+        —
+
+        <span data-i18n="experience.present">
+          Present
+        </span>
+
+      </div>
+
+      <h3 data-i18n="experience.vibe.title">
+        Unprofessional vibe coder
+      </h3>
+
+      <div
+        class="job-company"
+        data-i18n="experience.vibe.company"
+      >
+        Unemployment
+      </div>
+
+      <p data-i18n="experience.vibe.description">
+        Vibing projects unprofessionally while refusing to collaborate
+        with anybody.
+      </p>
+
+    </article>
+
+  </div>
+
+</section>
+
+
+</main> <!-- Footer --> <footer>
+<p data-i18n="footer.copyright">
+  © 2026 cm01234. All rights reserved.
+</p>
+
+</footer> </body> </html>
